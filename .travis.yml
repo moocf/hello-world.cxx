@@ -1,0 +1,11 @@
+language: cpp
+os: linux
+dist: bionic
+
+install:
+- if [[ "$GITHUB_TOKEN" != "" ]]; then git clone https://${GITHUB_TOKEN}@github.com/cppf/deploy "$HOME/deploy"; fi
+- if [[ -d ~/deploy ]]; then bash "$HOME/deploy/install.sh"; fi
+
+script:
+- if [[ ! -d "$HOME/deploy" ]]; then echo "No tests."; fi
+- if [[ -d "$HOME/deploy" ]]; then bash "$HOME/deploy/script.sh"; fi
