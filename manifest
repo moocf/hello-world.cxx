@@ -1,0 +1,11 @@
+: 1
+name: hello-world
+version: 0.1.0-a.0.z
+summary: hello-world C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/hello-world
+email: wolfram77@gmail.com
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+#depends: libhello ^1.0.0
