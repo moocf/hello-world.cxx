@@ -1,11 +1,12 @@
 : 1
 name: hello-world
-version: 0.4.3
-summary: hello-world C++ executable
+version: 0.4.4
+summary: A "Hello, World!" is an introductory computer program.
 license: MIT
 description-file: README.md
 url: https://github.com/cppf/hello-world
 email: wolfram77@gmail.com
+topics: cpp, hello, world, template
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
 #depends: libhello ^1.0.0
