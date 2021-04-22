@@ -1,0 +1,5 @@
+: 1
+name: hello-world
+version: 0.4.1
+summary: hello-world C++ executable
+license: other: proprietary; Not free/open source.
