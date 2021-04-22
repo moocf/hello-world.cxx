@@ -1,12 +1,22 @@
 ## Build2
 .bdep/
 
+# Output files.
+hello-world/hello-world
+
+# Testscript output directory (can be symlink).
+hello-world/test-hello-world
+
+# Build files.
+build/config.build
+build/root/
+build/bootstrap/
+build/build/
+
 # Local default options files.
-#
 .build2/local/
 
 # Compiler/linker output.
-#
 *.d
 *.t
 *.i
