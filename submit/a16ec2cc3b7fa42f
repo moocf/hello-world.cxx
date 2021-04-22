@@ -1,0 +1,5 @@
+: 1
+name: hello-world
+version: 0.1.0-a.2.20210422030611.616141fed94e
+summary: hello-world C++ executable
+license: other: proprietary; Not free/open source.
