@@ -1,0 +1,5 @@
+: 1
+name: hello-world
+version: 1.0.2
+summary: A "Hello, World!" is an introductory computer program.
+license: MIT
